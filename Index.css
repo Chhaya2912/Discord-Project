@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(discord-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+}
+
+header{
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+    /* background-color: rgb(97, 56, 229); */
+}
+header .branding-logo{
+    width: 136px;
+    height: 34px;
+   
+}
+
+.header-button {
+        font-size: 20px;
+        color: #23272a;
+        padding: 7px 16px;
+        border-radius: 100px;
+        border: none;
+        cursor: pointer;
+}
+
+.main{
+    width: 100%;
+   
+    justify-content: center;
+}
+
+.hero{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+color: white;
+gap: 16px;
+}
+
+.hero .details{
+    padding-left: 220px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+/* margin-right: 0%; */
+
+
+}
+
+.hero h1{
+    padding-top: 3rem;
+    width: 100%;
+    font-size: 50px;
+    font-weight:600;
+    font-family:"Arial black","Abcgintonord 800", sans-serif;
+    text-transform: capitalize;
+    line-height: 3.8rem;
+    
+}
+
+
+.hero p{
+    padding-top: 25px;
+    width: 95%;
+    font-family: Ggsans, sans-serif;
+    font-size: 23px;
+    line-height: 34px;
+   
+}
+
+
+.content{
+    display: flex;
+    padding-top:105px;
+    align-items:start;
+    height: 720px;
+    
+}
+
+/* .pic{
+    height: 600px;
+    width: 600px;
+    margin-left: -4rem;
+} */
+
+.hero-buttons{
+    margin-top: 2rem;
+    display: flex;
+    justify-content:space-between;
+    align-items:center
+    
+}
+
+.B1{
+    border-radius: 50px;
+    border: none;
+    height: 50px;
+    padding: 15px;
+    color: black;
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.chat{
+    margin-top: 18rem;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+
+}
+.card{
+    width: 100%;
+    border: solid;
+    border-color: #9db2f6;
+    background-color: rgb(86, 95, 210);
+    position: center;
+    max-width: 1300px;
+    height: 632px; 
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.card .media{
+    height: 595px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card .media video{
+    object-fit: cover;
+    height: 100%;
+    width: 780px;
+    border: none;
+    border-radius: 50px;
+    opacity: 100%;
+    
+}
+
+.card .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:  1.5rem;
+    line-height: 2.5rem;
+    font-family: "Arial black","Abcgintonord 800", sans-serif;
+    gap: 20px;
+    color: white;
+    padding: 60px;
+    
+}
+
+.abc{
+    background-image: linear-gradient(135deg,rgb(50, 95, 230),#a0c1e5);
+    height: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    font-family: "Arial black" ,"Abcgintonord 800", sans-serif;
+    font-size: 2.5rem;
+
+    /* grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    -webkit-backdrop-filter: blur(60px);
+    backdrop-filter: blur(60px);
+    background-image: linear-gradient(135deg,#fff6,#ffffff12);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 2px 52px #452a7c1a,inset 0 0 0 3px #fff3 */
+}
+
+.go-chat .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.go-chat .content .details{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family:"Arial black","Abcgintonord 800", sans-serif;
+    font-weight: 800;
+    line-height: 180%;
+    text-align: center;
+    
+
+}
+.go-chat-button{
+    margin: 3rem;
+    padding: 1rem;
+    border-radius: 50px;
+    border: none;
+    height: 50px;
+    background-color: rgb(113, 113, 251);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+
+.base-image img{
+    padding-top: 20px;
+    height:25.75vw;
+    align-self: center;   
+}
+
+.aa{
+    margin: 15rem;
+}
+    
+
+
